@@ -1,0 +1,11 @@
+header .title-logo {
+  float: right;
+  font-size: 40px;
+}
+header .text-logo {
+  color: #ff2b95;
+}
+header .logo {
+  width: 100%;
+  height: 50px;
+}

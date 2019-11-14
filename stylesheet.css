@@ -2,12 +2,22 @@ body{
   background-image: url(spring-background-4039218_1280.jpg);
   background-size: 100% 100%;
 }
+header{
+  position: fixed;
+  top:0px;
+  z-index: 10;
+  background-color: #dceaf8;
+}
 header h1 {
   font-size: 30px;
   font-family: fantasy;
 }
 header span {
   color: #ff2b95;
+}
+.menu-top{
+  background-color: #fff;
+  color: #000;
 }
 
 .menu-top li {
@@ -16,12 +26,20 @@ header span {
   font-size: 16px;
   list-style: none;
   font-family: 'arial unicode ms';
-  color: #fff;
 }
 .txt-contant{
-  margin:10% 20%;
+  margin:30% 20%;
   background-color: #fff4fa
 }
 .txt-contant p{
   font-family: monospace;
+}
+footer{
+  font-size: 10px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  bottom:0;
+  width:100%;
 }
